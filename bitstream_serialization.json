@@ -1,0 +1,41 @@
+{
+  "source_image": "PIA24428_gray_256x256.png",
+  "source_image_sha256": "ac29ede9c11b8500e511f0dadabefd40c3f9de01681ae16acc7fce00d5440de6",
+  "shape": [
+    256,
+    256
+  ],
+  "dtype": "uint8",
+  "scan_order": "row-major, top-to-bottom and left-to-right",
+  "bit_order": "MSB-first within each 8-bit pixel",
+  "bits_per_pixel": 8,
+  "bit_length": 524288,
+  "expected_bit_length": 524288,
+  "first_pixel_value": 64,
+  "first_pixel_bits": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "last_pixel_value": 29,
+  "last_pixel_bits": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+  ],
+  "bitstream_file": "PIA24428_bits_msb_first.npy",
+  "roundtrip_image": "PIA24428_roundtrip.png",
+  "roundtrip_exact": true,
+  "roundtrip_max_absolute_pixel_error": 0,
+  "roundtrip_image_sha256": "ac29ede9c11b8500e511f0dadabefd40c3f9de01681ae16acc7fce00d5440de6"
+}

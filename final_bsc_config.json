@@ -1,0 +1,22 @@
+{
+  "methods": [
+    "uncoded",
+    "hamming",
+    "ldpc"
+  ],
+  "p_values": [
+    0.0,
+    0.001,
+    0.005,
+    0.01,
+    0.02,
+    0.05
+  ],
+  "trials_at_zero": 1,
+  "trials_per_nonzero_p": 100,
+  "master_seed": 20261125,
+  "seed_convention": "NumPy SeedSequence([master_seed, method_index, p_index, trial_index])",
+  "max_workers": 6,
+  "source": "PIA24428_gray_256x256.png",
+  "ldpc_iteration_cap": 50
+}

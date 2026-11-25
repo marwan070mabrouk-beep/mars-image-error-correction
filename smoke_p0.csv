@@ -1,0 +1,4 @@
+method,p,seed,source_bits,transmitted_bits,padding_bits,native_k,blocks,channel_flips,raw_ber,decoded_bit_errors,decoded_ber,wrong_blocks,native_bler,image_failure,fer,mse,psnr_db,ssim,exact_image,decoder_status,hamming_corrections,ldpc_nonconverged_blocks,ldpc_total_iterations,ldpc_unsatisfied_checks,decoder_time_seconds
+uncoded,0.0,1000,524288,524288,0,1,524288,0,0.0,0,0.0,0,0.0,0,0.0,0.0,inf,1.0,True,none,0,0,0,0,0.007247309999911522
+hamming,0.0,1001,524288,917504,0,4,131072,0,0.0,0,0.0,0,0.0,0,0.0,0.0,inf,1.0,True,syndrome,0,0,0,0,4.76075257399998
+ldpc,0.0,1002,524288,1045296,434,506,1037,0,0.0,0,0.0,0,0.0,0,0.0,0.0,inf,1.0,True,sum-product,0,0,0,0,2.712387215000035

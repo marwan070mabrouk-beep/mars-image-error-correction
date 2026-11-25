@@ -1,0 +1,17 @@
+{
+  "n": 1008,
+  "m": 504,
+  "rank_gf2": 502,
+  "k": 506,
+  "rate": 0.501984126984127,
+  "matrix_seed": 20261124,
+  "matrix_sha256": "7f99c987293300245ee3d28c5a81c389968b3d68b3bd104a516ce2f0df4c398e",
+  "matrix_shape": [
+    504,
+    1008
+  ],
+  "ones": 3024,
+  "density": 0.005952380952380952,
+  "pivot_columns_file": "ldpc_pivot_columns.npy",
+  "free_columns_file": "ldpc_free_columns.npy"
+}

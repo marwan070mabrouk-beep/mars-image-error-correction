@@ -1,0 +1,42 @@
+{
+  "source": {
+    "identifier": "NASA/JPL-Caltech PIA24428",
+    "download_url": "https://assets.science.nasa.gov/content/dam/science/psd/mars/downloadable_items/4/5/45686_1-PIA24428-High-Resolution_Still_Image_of_Perseverances_Landing.png",
+    "filename": "PIA24428_original.png",
+    "sha256": "fdf61446a4ee1f03b254cc6b3831e6e9cc2ed17b0d27e04c5b7bb64d92f2c8e3",
+    "format": "PNG",
+    "mode": "RGB",
+    "size": [
+      2048,
+      1536
+    ]
+  },
+  "preprocessing": {
+    "crop_rule": "largest centered square crop",
+    "crop_box_xyxy": [
+      256,
+      0,
+      1792,
+      1536
+    ],
+    "crop_size": [
+      1536,
+      1536
+    ],
+    "grayscale": "Pillow Image.convert('L')",
+    "resize_size": [
+      256,
+      256
+    ],
+    "resize_filter": "Lanczos",
+    "output_format": "PNG",
+    "output_mode": "L",
+    "output_filename": "PIA24428_gray_256x256.png",
+    "output_sha256": "ac29ede9c11b8500e511f0dadabefd40c3f9de01681ae16acc7fce00d5440de6"
+  },
+  "software": {
+    "python": "3.10.2",
+    "pillow": "9.2.0"
+  },
+  "created_utc": "2026-11-25T21:32:07.454640+00:00"
+}
